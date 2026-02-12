@@ -1,0 +1,275 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f7f2;
+    background-image: url('../ressources/saint-joseph-eglise.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.entete {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0.92);
+    border-bottom: 3px solid #d4af37;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    margin: 0 auto 10px;
+    display: block;
+}
+
+h1 {
+    color: #8b0000;
+    font-size: 2.2rem;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: #555;
+    font-style: italic;
+}
+
+nav {
+    background-color: #8b0000;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #a52a2a;
+}
+
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: rgba(255, 255, 255, 0.95);
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.salutation {
+    text-align: center;
+    padding: 30px;
+    background-color: #d4af37;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.reponse {
+    font-size: 1.5rem;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.image-accueil {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: 25px auto;
+    border-radius: 8px;
+    border: 3px solid #d4af37;
+}
+
+.info-rapide {
+    background-color: #e8f4e8;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 25px;
+}
+
+.info-rapide ul {
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+.info-rapide li {
+    margin-bottom: 8px;
+}
+
+aside {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border-left: 5px solid #1890ff;
+    border-radius: 0 8px 8px 0;
+}
+
+.whatsapp {
+    display: inline-block;
+    background-color: #25D366;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.whatsapp:hover {
+    background-color: #128C7E;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
+
+/* Programme */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.95em;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    padding: 14px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #8b0000;
+    color: white;
+    font-weight: bold;
+}
+
+table tr:nth-child(even) {
+    background-color: #fff9f9;
+}
+
+table tr:hover {
+    background-color: #ffebee;
+}
+
+.note {
+    background-color: #fff8e1;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    border-left: 4px solid #ffc107;
+}
+
+/* Servants */
+.liste-servants {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.servant {
+    background-color: #f0f8ff;
+    border: 1px solid #add8e6;
+    border-radius: 8px;
+    padding: 15px;
+    width: calc(25% - 15px);
+    min-width: 200px;
+    text-align: center;
+}
+
+.roles ul {
+    padding-left: 25px;
+    margin: 20px 0;
+}
+
+.roles li {
+    margin-bottom: 10px;
+}
+
+/* Communiqués */
+.communique {
+    background-color: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.communique h2 {
+    color: #8b0000;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+/* Activités */
+.cotisation {
+    background-color: #fff8e1;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 25px;
+    border: 1px solid #ffd54f;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+section h2 {
+    color: #8b0000;
+    margin-bottom: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #d4af37;
+}
+
+/* Responsive basique */
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav li {
+        margin: 5px 0;
+    }
+    
+    .servant {
+        width: calc(50% - 15px);
+    }
+    
+    main, aside {
+        margin: 15px;
+        padding: 20px 15px;
+    }
+}
